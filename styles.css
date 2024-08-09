@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    color: #fff;
+}
+header .logo h1:hover{
+    cursor: pointer;
+    color: #ff2c2c;
+    transform: scale(1.0);
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff2c2c;
+}
+
+.hero {
+    background-image: url('images/gaming-hero.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.hero-content h2:hover {
+    cursor: pointer;
+    font-size: 3.5rem;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #ff2c2c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #d1001f;
+    color: #FAF9F6;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #262626;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #ff2c2c;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+    position: relative;
+}
+
+
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.products h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #ff2c2c;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-item {
+    background-color: #262626;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-item:hover {
+    transform: scale(1.0);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #ff2c2c;
+}
+
+.product-item p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.cart {
+    padding: 50px 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.cart h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #ff2c2c;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #262626;
+    color: #ccc;
+}
+
+.cart-table th, .cart-table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.cart-table th {
+    background-color: #333;
+    color: #ff2c2c;
+}
+
+.cart-table .cart-product {
+    display: flex;
+    align-items: center;
+}
+
+.cart-table .cart-product img {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.cart-table input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+.remove-btn {
+    background-color: #ff2c2c;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #d1001f;
+}
+
+.cart-total {
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.cart-total h3 {
+    color: #ff2c2c;
+}
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #ff2c2c;
+}
+
+.contact p {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff2c2c;
+}
+
+input[type="text"],input[type="email"],textarea {
+    width: 92%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
